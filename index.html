@@ -3,71 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing - Mahsulot Nom</title>
+    <title>Shop.uz - Onlayn Do'kon</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <nav class="nav container">
-            <a href="#" class="logo">Landing</a>
-            <ul class="nav-links">
-                <li><a href="#features">Xususiyatlar</a></li>
-                <li><a href="#about">Haqida</a></li>
-                <li><a href="#contact">Aloqa</a></li>
-            </ul>
-        </nav>
+        <div class="container header-content">
+            <a href="#" class="logo">Shop<span>.uz</span></a>
+            <div class="search-box">
+                <input type="text" placeholder="Mahsulot qidirish...">
+                <button>Qidirish</button>
+            </div>
+            <div class="header-actions">
+                <a href="#" class="cart-btn">Savat (0)</a>
+            </div>
+        </div>
     </header>
 
-    <section class="hero">
-        <div class="container hero-content">
-            <h1>Eng yaxshi mahsulotni kashf eting</h1>
-            <p>Muammolaringizni hal qiluvchi zamonaviy yechim. Hozir buyurtma qiling va maxsus chegirmaga ega bo'ling!</p>
-            <a href="#contact" class="btn">Buyurtma qilish</a>
+    <nav class="categories">
+        <div class="container">
+            <ul>
+                <li><a href="#" class="active">Barcha mahsulotlar</a></li>
+                <li><a href="#">Elektronika</a></li>
+                <li><a href="#">Kiyim</a></li>
+                <li><a href="#">Ayoqchi</a></li>
+                <li><a href="#">Aksessuarlar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1>Yangi kolleksiya</h1>
+                <p>Eng sifatli mahsulotlar eng past narxlarda</p>
+                <a href="#products" class="btn">Xarid qilish</a>
+            </div>
         </div>
     </section>
 
-    <section id="features" class="features">
+    <section id="products" class="products">
         <div class="container">
-            <h2 class="section-title">Xususiyatlarimiz</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <h3>Tezkor</h3>
-                    <p>Eng tezkor xizmat va qo'llab-quvvatlash</p>
+            <h2 class="section-title">Mashhur mahsulotlar</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Mahsulot">
+                    </div>
+                    <div class="product-info">
+                        <h3>Smartfon Pro Max</h3>
+                        <p class="price">2,500,000 so'm</p>
+                        <button class="add-btn">Savatga qo'shish</button>
+                    </div>
                 </div>
-                <div class="feature-card">
-                    <h3>Ishonchli</h3>
-                    <p>Mijozlarimizning ishonchini qozongan</p>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Mahsulot">
+                    </div>
+                    <div class="product-info">
+                        <h3>Noutbuk Air 13</h3>
+                        <p class="price">4,200,000 so'm</p>
+                        <button class="add-btn">Savatga qo'shish</button>
+                    </div>
                 </div>
-                <div class="feature-card">
-                    <h3>Sifatli</h3>
-                    <p>Eng yuqori sifat standartlari</p>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Mahsulot">
+                    </div>
+                    <div class="product-info">
+                        <h3>Naushniklar Wireless</h3>
+                        <p class="price">450,000 so'm</p>
+                        <button class="add-btn">Savatga qo'shish</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Mahsulot">
+                    </div>
+                    <div class="product-info">
+                        <h3>Soat Smart Band</h3>
+                        <p class="price">320,000 so'm</p>
+                        <button class="add-btn">Savatga qo'shish</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Mahsulot">
+                    </div>
+                    <div class="product-info">
+                        <h3>PlayStation 5</h3>
+                        <p class="price">5,800,000 so'm</p>
+                        <button class="add-btn">Savatga qo'shish</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://via.placeholder.com/300x300" alt="Mahsulot">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kamera GoPro</h3>
+                        <p class="price">1,900,000 so'm</p>
+                        <button class="add-btn">Savatga qo'shish</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="about">
+    <section class="features">
         <div class="container">
-            <h2 class="section-title">Biz haqimizda</h2>
-            <p class="about-text">Biz mijozlarga eng yaxshi xizmat ko'rsatishga intilamiz. 5 yildan ortiq tajribamiz bilan minglab muvaffaqiyatli loyihalarni amalga oshirdik.</p>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Aloqa</h2>
-            <form class="contact-form">
-                <input type="text" placeholder="Ismingiz" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Xabar" rows="5" required></textarea>
-                <button type="submit" class="btn">Yuborish</button>
-            </form>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>Tez yetkazib berish</h3>
+                    <p>O'zbekiston bo'ylab 1-3 kun</p>
+                </div>
+                <div class="feature">
+                    <h3>To'lov usullari</h3>
+                    <p>Naqd, karta, click</p>
+                </div>
+                <div class="feature">
+                    <h3>Qaytarish kafolati</h3>
+                    <p>14 kun ichida qaytarish</p>
+                </div>
+                <div class="feature">
+                    <h3>24/7 qo'llab-quvvatlash</h3>
+                    <p>Har qanday savol uchun</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 Landing. Barcha huquqlar himoyalangan.</p>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>Shop.uz</h4>
+                <p>Eng yaxshi onlayn do'kon O'zbekistonda</p>
+            </div>
+            <div class="footer-section">
+                <h4>Bo'limlar</h4>
+                <ul>
+                    <li><a href="#">Elektronika</a></li>
+                    <li><a href="#">Kiyim</a></li>
+                    <li><a href="#">Aksessuarlar</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Aloqa</h4>
+                <p>Tel: +998 90 123-45-67</p>
+                <p>Email: info@shop.uz</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Shop.uz. Barcha huquqlar himoyalangan.</p>
         </div>
     </footer>
 </body>
